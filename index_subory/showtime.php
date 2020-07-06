@@ -1,1 +1,0 @@
-rempcampaign_callback_json0({"success":true,"data":[],"providerData":{"crm_segment":{},"remp_segment":{"cache":{"1277851803":{"c":1,"s":"2019-12-25T14:48:07.673184557+01:00"},"1386357040":{"c":1,"s":"2019-12-14T22:09:17.894386588+01:00"}},"event_rules":{}},"pythia_segment":{}}})
