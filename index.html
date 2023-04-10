@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="assets/theme/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"> 
     <link rel="preload"
         href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"
         as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -29,8 +28,10 @@
         <link rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap">
     </noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet"> 
     <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -113,9 +114,9 @@
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-10">
                     <hr class="line">
-                    <p class="mbr-text align-center mbr-fonts-style my-4 display-5"><em>Šrégom je outdoorový pretek
+                    <p class="mbr-text align-center mbr-fonts-style my-4 display-5 custom-font">Šrégom je outdoorový pretek
                             tímov zameraný na orientáciu v teréne, lúštenie navigačných hlavolamov a športové
-                            aktivity.&nbsp;</em></p>
+                            aktivity.&nbsp</p>
                     <hr class="line">
                 </div>
             </div>
@@ -124,6 +125,14 @@
 
     <section data-bs-version="5.1" class="features3 cid-tzDnAxzLxm" id="features3-i">
 
+        <script>
+            $(document).ready(function(){
+                $('.img-bottom').hover(function() {
+                    $(this).addClass('hide-element');
+                    $('.img-bottom').not($(this)).removeClass('hide-element');
+                });
+            });
+        </script>
 
         <div class="container">
 
@@ -132,7 +141,7 @@
                     <div class="item-wrapper">
                         <div class="item-img img-parent">
                             <img src="assets/images/srg-web_1.gif" class="custom-pixelcrisp img-top" alt="" data-slide-to="0" data-bs-slide-to="0">
-                            <img src="assets/images/srg-web-1-84x84.png" class="custom-pixelcrisp custom-hide-on-mobile img-bottom" alt="" data-slide-to="0" data-bs-slide-to="0">
+                            <img src="assets/images/srg-web-1-84x84.png" class="custom-pixelcrisp custom-hide-on-mobile img-bottom hide-element" alt="" data-slide-to="0" data-bs-slide-to="0">
                         </div>
                         <div class="item-content">
                             <h5 class="item-title mbr-fonts-style display-7"><strong>1. Pretek</strong></h5>
@@ -187,7 +196,7 @@
                         <div class="item-content">
                             <h5 class="item-title mbr-fonts-style display-7"><strong>4. Výdrž</strong></h5>
 
-                            <p class="mbr-text mbr-fonts-style mt-3 display-7">Pretek trvá 24 hodín a trasa vedie vyše
+                            <p class="mbr-text mbr-fonts-style mt-3 display-7">Pretek trvá 24 hodín nepretžite a trasa vedie vyše
                                 30 kilometrov zvlneným lesným terénom (samozrejme bude plno možností poblúdiť a trasu si
                                 predĺžiť). Vyžaduje sa teda primeraná fyzická spôsobilosť.<br></p>
                         </div>
@@ -222,9 +231,9 @@
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-10">
                     <hr class="line">
-                    <p class="mbr-text align-center mbr-fonts-style my-4 display-5"><em>Baví ťa pobyt v prírode? Baví ťa
+                    <p class="mbr-text align-center mbr-fonts-style my-4 display-5 custom-font">Baví ťa pobyt v prírode? Baví ťa
                             objavovať nové miesta a hľadať cestu vpred? Dokážeš ísť na hranicu svojich síl a schopností?
-                            Tak neváhaj, a vydaj sa <strong>šrégom</strong> do neznáma!</em></p>
+                            Tak neváhaj, a vydaj sa <em>šrégom</em> do neznáma!</p>
                     <hr class="line">
                 </div>
             </div>
@@ -274,7 +283,7 @@
                                 <span class="mbr-iconfont mbri-users"></span>
                             </div>
                             <h5 class="card-title mbr-fonts-style display-7"><strong>Účasť</strong></h5>
-                            <p class="card-text mbr-fonts-style display-7">Súťaž je určená pre štvorčlenné tímy.</p>
+                            <p class="card-text mbr-fonts-style display-7">Súťaž je určená pre troj- až štvorčlenné tímy.</p>
                         </div>
                     </div>
                 </div>
@@ -285,7 +294,7 @@
                                 <span class="mbr-iconfont mbri-cash"></span>
                             </div>
                             <h5 class="card-title mbr-fonts-style display-7"><strong>Cena</strong></h5>
-                            <p class="card-text mbr-fonts-style display-7">Štartovné je 30 eur na tím. Slúži na materiálne zabezpečenie preteku.</p>
+                            <p class="card-text mbr-fonts-style display-7">Štartovné je 40 eur na tím. Slúži na materiálne zabezpečenie preteku.</p>
                         </div>
                     </div>
                 </div>
@@ -315,9 +324,6 @@
                         <strong>Pravidlá</strong>
                     </h3>
                     <ul class="list mbr-fonts-style display-7">
-                        <li>Tím sa skladá zo štyroch členov. Vo výnimočných prípadoch môžeme povoliť aj trojčlenný tím,
-                            nie je to však odporúčané.
-                        </li>
                         <li>Minimálny vek potrebný na účasť v súťaži je 16 rokov. Súťažiaci pod 18 rokov musia doniesť
                             podpísaný súhlas zákonného zástupcu a v každom tíme musí byť aspoň jeden súťažiaci nad 18 rokov. 
                             Súťažiaci za zúčastňujú preteku na vlastné nebezpečenstvo a na vlastnú zodpovednosť.
@@ -341,8 +347,7 @@
                             dosiahnutia tohto stanovištia.
                         </li>
                         <li>Ak má tím problém nájsť ďalšie stanovište, môže si vypýtať počas preteku od organizátorov
-                            jeho súradnice. Za každé takéto preskočenie bude k celkovému času tímu pripočítaná
-                            penalizácia 3 hodiny.
+                            jeho súradnice. Za každé takéto preskočenie bude tím penalizovaný v celkovom poradí (<i>detaily pribudnú neskôr</i>)
                         </li>
                         <li>Povinná výbava: Buzola/kompas, GPS navigácia - musí umožňovať vypnúť mapový podklad, Nabité
                             mobilné telefóny (aspoň 2ks), Čelovka/baterka pre každého člena tímu, základná lekárnička.</li>
@@ -379,10 +384,10 @@
                                 <strong>Adam Kňaze</strong>
                             </h5>
 
-                            <p class="mbr-text mbr-fonts-style mt-3 display-7">S organizovaním zážitkových akcií som
-                                začal v korešpoňďákoch a Trojstene. Šrégom organizujem lebo perfektne spája viaceré moje
+                            <p class="mbr-text mbr-fonts-style mt-3 display-7">S organizovaním akcií som
+                                začal v Trojstene a korešpondenčých seminároch. Šrégom organizujem lebo spája viaceré moje
                                 záľuby - pobyt v prírode a objavovanie nových miest (alebo aspoň nových pohľadov na
-                                staré miesta). Plus je to také správne dobrodružstvo.<br></p>
+                                staré miesta). Plus neviem povedať nie správnemu dobrodružstvu.<br></p>
                         </div>
 
                     </div>
@@ -473,7 +478,6 @@
     <script src="assets/ytplayer/index.js"></script>
     <script src="assets/dropdown/js/navbar-dropdown.js"></script>
     <script src="assets/theme/js/script.js"></script>
-
 
 </body>
 

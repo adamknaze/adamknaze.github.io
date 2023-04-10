@@ -72,8 +72,13 @@
   top: 0px;
   left: 0px;
 }
-.img-bottom:hover {
+
+.hide-element {
   opacity: 0;
+}
+
+.custom-font{
+  font-family: 'Rowdies', cursive !important;
 }
 
 
