@@ -127,9 +127,12 @@
 
         <script>
             $(document).ready(function(){
-                $('.img-bottom').hover(function() {
+                $('.img-bottom').mouseenter(function() {
                     $(this).addClass('hide-element');
                     $('.img-bottom').not($(this)).removeClass('hide-element');
+                });
+                $('.img-bottom').click(function(){
+                    $(this).removeClass('hide-element');
                 });
             });
         </script>
