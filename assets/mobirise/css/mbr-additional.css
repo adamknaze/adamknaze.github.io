@@ -1140,13 +1140,13 @@ a {
   }
 }
 .cid-tykyiCYTLH {
-  background-image: url("../../../assets/images/backg_polana-2000x1125.jpeg");
+  background-image: url("../../../assets/images/backg_polana-2000x1125.webp");
   /* background-image: url("../../../assets/images/backg-ivanka-3-2000x1125.webp"); */
 }
 @media (max-width: 770px) {
   .cid-tykyiCYTLH {
     /* background-image: url("../../../assets/images/backg-ivanka-square-4-1080x1080.webp"); */
-    background-image: url("../../../assets/images/backg-polana-large-2000x974.png");
+    background-image: url("../../../assets/images/backg_polana_tall-2000x1330.webp");
   }
 }
 .cid-tykyiCYTLH .mbr-fallback-image.disabled {
