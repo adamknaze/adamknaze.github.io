@@ -1999,7 +1999,7 @@ table.categoryTable {
   border-collapse: collapse;
 }
 table.categoryTable td, table.categoryTable th {
-  padding: 3px 2px;
+  padding: 3px 3px;
 }
 table.categoryTable thead {
     border-bottom: 2px solid #444444;
