@@ -2010,3 +2010,15 @@ table.categoryTable thead th {
 table.categoryTable tfoot {
   font-weight: bold;
 }
+.cid-ulNMBMAKdJ {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+.cid-ulNMBMAKdJ blockquote {
+  border-color: #cd3365;
+  border-radius: 4px;
+  background-color: #fafafa;
+  padding: 2rem;
+  margin-bottom: 0;
+}
