@@ -22,8 +22,7 @@
 
 .custom-banner-text {
   font-weight: 550;
-  text-shadow: 0px 0px 8px #f4ecc7, 0px 0px 8px #f4ecc7, 0px 0px 8px #f4ecc7, 0px 0px 8px #f4ecc7, 0px 0px 8px #f4ecc7,
-    0px 0px 8px #f4ecc7;
+  text-shadow: 0px 0px 8px #d9ba93, 0px 0px 8px #d9ba93, 0px 0px 8px #d9ba93, 0px 0px 8px #d9ba93, 0px 0px 8px #d9ba93;
 }
 
 @media (max-width: 500px) {
@@ -1140,13 +1139,14 @@ a {
   }
 }
 .cid-tykyiCYTLH {
-  background-image: url("../../../assets/images/backg_polana-2000x1125.webp");
+  background-image: url("../../../assets/images/backg_26_2000x1125.webp");
   /* background-image: url("../../../assets/images/backg-ivanka-3-2000x1125.webp"); */
 }
 @media (max-width: 770px) {
   .cid-tykyiCYTLH {
     /* background-image: url("../../../assets/images/backg-ivanka-square-4-1080x1080.webp"); */
-    background-image: url("../../../assets/images/backg_polana_tall-2000x1330.webp");
+    background-image: url("../../../assets/images/backg_26_1330x1330.webp");
+    min-height: 75vh;
   }
 }
 .cid-tykyiCYTLH .mbr-fallback-image.disabled {
