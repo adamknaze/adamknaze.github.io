@@ -1265,6 +1265,14 @@ a {
   color: #cd3365;
   margin-bottom: 2rem;
 }
+.cid-tA7Cc3SwSE .card-box.d-flex .mbr-iconfont {
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  .cid-tA7Cc3SwSE .card-box.d-flex .mbr-iconfont {
+    display: none;
+  }
+}
 .cid-tA7Cc3SwSE .card-wrapper {
   margin-top: 3rem;
 }
